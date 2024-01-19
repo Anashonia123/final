@@ -1,37 +1,70 @@
-
 @media (max-width:745px) {
 
     /* header */
     header {
         padding-inline: 24px;
     }
-/* .section_three */
-    .section_three_title{
+
+
+    /* .section_three */
+    .section_three_title {
         text-align: start;
-         }
-         
-    
+    }
+
+
+
+    .about_section_one_title {
+
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .about_Subscribe_input {
+        width: 408px;
+    }
+
+    /* contact section one */
+    .contact_one_section {
+        padding: 160px 220px 160px 24px;
+    }
+    .map {
+        width: 432px;
+        height: 320px;
+    }
 }
-@media (max-width:550px){
+
+@media (max-width:550px) {
     /* .section_one */
 
-    .section_one_title{
+    .section_one_title {
         font-size: 32px;
         line-height: 40px;
 
     }
+
     /* section_four */
-    .section_four{
+    .section_four {
         height: 320px;
     }
-    .section_four_title{
+
+    .section_four_title {
         font-size: 32px;
         line-height: 40px;
     }
-    .section_four{
+
+    .section_four {
         height: 320px;
     }
-    .search_input{
+
+    .search_input {
         width: 346px;
+    }
+    /* contact section one */
+    .contact_one_section {
+        padding: 80px 24px 80px 24px;
+    }
+
+    .contact_form_container{
+        padding: 24px 20px;
     }
 }
