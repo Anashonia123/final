@@ -1,0 +1,37 @@
+
+@media (max-width:745px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+/* .section_three */
+    .section_three_title{
+        text-align: start;
+         }
+         
+    
+}
+@media (max-width:550px){
+    /* .section_one */
+
+    .section_one_title{
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+    /* section_four */
+    .section_four{
+        height: 320px;
+    }
+    .section_four_title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .section_four{
+        height: 320px;
+    }
+    .search_input{
+        width: 346px;
+    }
+}
