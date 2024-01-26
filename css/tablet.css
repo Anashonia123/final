@@ -7,10 +7,9 @@
 
 
     /* .section_three */
-    .section_three_title {
-        text-align: start;
+    .section_three {
+        padding-left: 24px;
     }
-
 
 
     .about_section_one_title {
@@ -27,44 +26,127 @@
     .contact_one_section {
         padding: 160px 220px 160px 24px;
     }
-    .map {
-        width: 432px;
-        height: 320px;
+
+
+    /* about_section_two */
+    .about_section_two {
+        padding-inline: 24px;
+    }
+}
+
+@media (max-width:700px) {
+
+    /* about_section_two */
+    .about_section_tittle_button_div {
+        column-gap: 24px;
+    }
+
+    .about_section_two_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about_section_two_button_one_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width:615px) {
+    .about_section_one {
+        height: 400px;
+        row-gap: 32px;
+        padding-inline: 36px;
+    }
+
+
+    .about_section_one_title {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+
+    }
+
+    .about_section_one_form {
+        width: 100%;
+
+    }
+
+    .about_search_input_btn {
+        padding: 15px 53px 15px 54px;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+@media (max-width:560px) {
+    .contact_one_section {
+        height: 560px;
+        padding-inline: 24px;
+    }
+
+    .contact_form_container {
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    .contact_title {
+        font-size: 32px;
+        line-height: normal;
     }
 }
 
 @media (max-width:550px) {
-    /* .section_one */
-
-    .section_one_title {
-        font-size: 32px;
-        line-height: 40px;
-
-    }
 
     /* section_four */
     .section_four {
         height: 320px;
+        row-gap: 32px;
+        padding-inline: 20px;
     }
 
     .section_four_title {
         font-size: 32px;
         line-height: 40px;
+        text-align: center;
     }
 
-    .section_four {
-        height: 320px;
+    .search_form {
+        width: 100%;
     }
 
-    .search_input {
-        width: 346px;
+    .search_input_btn {
+        padding: 16px 20px;
     }
+
     /* contact section one */
     .contact_one_section {
         padding: 80px 24px 80px 24px;
     }
 
-    .contact_form_container{
+    .contact_form_container {
         padding: 24px 20px;
     }
+
+
+
+}
+
+@media (max-width:481px) {
+    .footer_one {
+        padding: 32px 0;
+    }
+
+    .section_three {
+        padding: 64px 20px;
+    }
+
+    .section_three_title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 32px;
+    }
+
+
+
+
 }
